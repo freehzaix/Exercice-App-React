@@ -1,13 +1,14 @@
-
 const AppLink = () => {
+    const framework = "React & Laravel"
+
     return(
       <a
         className="App-link"
-        href="https://reactjs.org"
+        href="https://freehzaix.com"
         target="_blank"
         rel="noopener noreferrer"
       >
-        En savoir plus sur React
+        En savoir plus sur {framework}
       </a>
     )
   }
